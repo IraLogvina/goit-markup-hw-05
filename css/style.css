@@ -152,6 +152,7 @@ a{
 }
 
 .nav-list-link{
+    display: flex;
     font-style: normal;
     font-weight: 500;
     line-height: 16px;
