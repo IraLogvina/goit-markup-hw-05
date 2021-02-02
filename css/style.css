@@ -9,12 +9,6 @@
     box-sizing: border-box;
 }
 
-*:hover,
-*:focus{
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 h1,
 h2,
 h3,
@@ -49,7 +43,6 @@ img{
     --hero-gradient-color:  rgba(47, 48, 58, 0.4);
     --portfolio-border-color: #EEEEEE;
     --black-color: #000000;
-
 }  
 
 body {
@@ -154,6 +147,9 @@ a{
     padding-top: 32px;
     padding-bottom: 32px;
     align-items: center;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-list-link:hover,
@@ -174,9 +170,6 @@ a{
     margin: 0 auto;
     background-color: var(--accent-color);
     opacity: 1;
-    transition-timing-function: 250ms;
-    transform: cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 
 .nav-list-item:hover::after,
@@ -223,6 +216,9 @@ a{
     fill:currentColor;
     padding-top: 32px;
     padding-bottom: 32px;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts-list-link:hover, 
@@ -276,6 +272,8 @@ a{
     cursor: pointer;
     border-radius: 4px;
     border: none;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Our features - Наши преимущества */
@@ -446,6 +444,9 @@ a{
     border-radius: 50%;
     fill: currentColor;
     color: var(--social-links-main-color);
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-item:not(:last-child) {
@@ -576,6 +577,9 @@ a{
     border-radius: 50%;
     fill: currentColor;
     color: var(--white-text-color);
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-link-footer:hover,
@@ -624,6 +628,9 @@ a{
     color: var(--social-links-main-color);
     border: 1px solid var(--social-links-main-color);
     border-radius: 4px;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .our-clients-item:not(:last-child) {
     margin-right: 30px;
@@ -670,6 +677,9 @@ a{
     border-radius: 4px;
     border: none;
     cursor: pointer;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .filter-button:hover,
@@ -706,6 +716,9 @@ a{
     width: 370px;
     margin: 0px 30px 30px 0px;
     border: 1px solid var(--portfolio-border-color);
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .work-examples-item:nth-child(3n + 3) {
